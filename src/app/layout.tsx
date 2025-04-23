@@ -1,9 +1,7 @@
-// app/layout.tsx
 import './globals.css';
 import type { ReactNode } from 'react';
 import ClientSessionProvider from '@components/app/components/ClientSessionProvider';
 
-// Export metadata from a separate file or use this pattern:
 const metadata = {
   title: 'My App',
   description: 'Using NextAuth',
